@@ -1,181 +1,182 @@
-tagName=超低排放.1#精炼.计量仓振动电流,namaspaceIndex=2//1#LF称量斗振动给料机电流表-5分钟采集一次
-tagName=超低排放.1#精炼高压.A相二次电流,namaspaceIndex=2//1#LF炉冶炼电流-5分钟采集一次
-tagName=超低排放.1#精炼.皮带电流,namaspaceIndex=2@@1#LF皮带机电流-5分钟一次
-tagName=超低排放.1/2#除尘.1-1#风机电机电流,namaspaceIndex=2@@1#除尘器电机电流-5分钟采集一次
-tagName=超低排放.1/2#除尘.1-1#风机实际频率,namaspaceIndex=2@@1#除尘器电机频率-5分钟采集一次
-tagName=1#除尘在线.1#除尘在线.标态干烟气流量,namaspaceIndex=2@@1#1#除尘器电机风量-5分钟采集一次
-tagName=1#除尘在线.1#除尘在线.烟气压力,namaspaceIndex=2@@1#除尘器电机风压-5分钟采集一次
-tagName=超低排放.1#电炉高压.A相,namaspaceIndex=2@@1#电流冶炼电流-5分钟采集一次
-tagName=超低排放.活性炭1#smart.活性炭喷吹量,namaspaceIndex=2@@1#电炉活性炭喷吹流量表-5分钟采集一次
-tagName=超低排放.1#电炉.加长溜槽振动电流,namaspaceIndex=2@@1#电炉加长溜槽振动电流表-5分钟采集一次
-tagName=超低排放.1#精炼高压.A相二次电流,namaspaceIndex=2@@1#精炼冶炼电流表-5分钟采集一次
-tagName=超低排放.1#电炉.1#计量仓振动电流,namaspaceIndex=2@@1#炉1#称量斗电振电流表-5分钟采集一次
-tagName=超低排放.1#电炉.水平皮带电流,namaspaceIndex=2@@1#炉1#皮带电流表-5分钟采集一次
-tagName=超低排放.1#电炉.2#计量仓振动电流,namaspaceIndex=2@@1#炉2#称量斗电振电流表-5分钟采集一次
-tagName=超低排放.2#电炉.水平皮带电流,namaspaceIndex=2@@1#炉2#皮带电流表-5分钟采集一次
-tagName=超低排放.1#电炉.倾角皮带电流,namaspaceIndex=2@@1#炉大倾角皮带电流表-5分钟采集一次
-tagName=超低排放.1#水平加料.尾振电流,namaspaceIndex=2@@1#炉振动给料机电流-5分钟采集一次
-tagName=超低排放.1#水平加料.1#水平加料小车电流,namaspaceIndex=2@@1#水平加料上料干雾电流表-5分钟采集一次
-tagName=超低排放.1/2#除尘.1#除尘卸灰阀,namaspaceIndex=2@@1#卸灰电机电流表-5分钟采集一次
-tagName=超低排放.干雾抑尘3#大包翻包热修.电流,namaspaceIndex=2@@1#铸余干雾电机电流表-2分钟采集一次
-tagName=1#除尘在线.1#除尘在线.O2湿,namaspaceIndex=2@@1-3号除尘在线DCS数据-02湿-5分钟采集一次
-tagName=1#除尘在线.1#除尘在线.标态干烟气流量,namaspaceIndex=2@@1-3号除尘在线DCS数据-标态干烟气流量-5分钟采集一次
-tagName=1#除尘在线.1#除尘在线.工况湿烟气流量,namaspaceIndex=2@@1-3号除尘在线DCS数据-工况湿烟气流量-5分钟采集一次
-tagName=1#除尘在线.1#除尘在线.颗粒物（折算）,namaspaceIndex=2@@1-3号除尘在线DCS数据-颗粒物（折算）-5分钟采集一次
-tagName=1#除尘在线.1#除尘在线.颗粒物干,namaspaceIndex=2@@1-3号除尘在线DCS数据-颗粒物干-5分钟采集一次
-tagName=1#除尘在线.1#除尘在线.颗粒物排放速率,namaspaceIndex=2@@1-3号除尘在线DCS数据-颗粒物排放速率-5分钟采集一次
-tagName=1#除尘在线.1#除尘在线.颗粒物湿,namaspaceIndex=2@@1-3号除尘在线DCS数据-颗粒物湿-5分钟采集一次
-tagName=1#除尘在线.1#除尘在线.烟气流速,namaspaceIndex=2@@1-3号除尘在线DCS数据-烟气流速-5分钟采集一次
-tagName=1#除尘在线.1#除尘在线.烟气湿度,namaspaceIndex=2@@1-3号除尘在线DCS数据-烟气湿度-5分钟采集一次
-tagName=1#除尘在线.1#除尘在线.烟气温度,namaspaceIndex=2@@1-3号除尘在线DCS数据-烟气温度-5分钟采集一次
-tagName=1#除尘在线.1#除尘在线.烟气压力,namaspaceIndex=2@@1-3号除尘在线DCS数据-烟气压力-5分钟采集一次
-tagName=1#除尘在线.1#除尘在线.氧干,namaspaceIndex=2@@1-3号除尘在线DCS数据-氧干-5分钟采集一次
-tagName=2#除尘在线.2#除尘在线.O2湿,namaspaceIndex=2@@1-3号除尘在线DCS数据-02湿-5分钟采集一次
-tagName=2#除尘在线.2#除尘在线.标态干烟气流量,namaspaceIndex=2@@1-3号除尘在线DCS数据-标态干烟气流量-5分钟采集一次
-tagName=2#除尘在线.2#除尘在线.工况湿烟气流量,namaspaceIndex=2@@1-3号除尘在线DCS数据-工况湿烟气流量-5分钟采集一次
-tagName=2#除尘在线.2#除尘在线.颗粒物（折算）,namaspaceIndex=2@@1-3号除尘在线DCS数据-颗粒物（折算）-5分钟采集一次
-tagName=2#除尘在线.2#除尘在线.颗粒物干,namaspaceIndex=2@@1-3号除尘在线DCS数据-颗粒物干-5分钟采集一次
-tagName=2#除尘在线.2#除尘在线.颗粒物排放速率,namaspaceIndex=2@@1-3号除尘在线DCS数据-颗粒物排放速率-5分钟采集一次
-tagName=2#除尘在线.2#除尘在线.颗粒物湿,namaspaceIndex=2@@1-3号除尘在线DCS数据-颗粒物湿-5分钟采集一次
-tagName=2#除尘在线.2#除尘在线.烟气流速,namaspaceIndex=2@@1-3号除尘在线DCS数据-烟气流速-5分钟采集一次
-tagName=2#除尘在线.2#除尘在线.烟气湿度,namaspaceIndex=2@@1-3号除尘在线DCS数据-烟气湿度-5分钟采集一次
-tagName=2#除尘在线.2#除尘在线.烟气温度,namaspaceIndex=2@@1-3号除尘在线DCS数据-烟气温度-5分钟采集一次
-tagName=2#除尘在线.2#除尘在线.烟气压力,namaspaceIndex=2@@1-3号除尘在线DCS数据-烟气压力-5分钟采集一次
-tagName=2#除尘在线.2#除尘在线.氧干,namaspaceIndex=2@@1-3号除尘在线DCS数据-氧干-5分钟采集一次
-tagName=3#除尘在线.3#除尘在线.O2湿,namaspaceIndex=2@@1-3号除尘在线DCS数据-02湿-5分钟采集一次
-tagName=3#除尘在线.3#除尘在线.标态干烟气流量,namaspaceIndex=2@@1-3号除尘在线DCS数据-标态干烟气流量-5分钟采集一次
-tagName=3#除尘在线.3#除尘在线.工况湿烟气流量,namaspaceIndex=2@@1-3号除尘在线DCS数据-工况湿烟气流量-5分钟采集一次
-tagName=3#除尘在线.3#除尘在线.颗粒物（折算）,namaspaceIndex=2@@1-3号除尘在线DCS数据-颗粒物（折算）-5分钟采集一次
-tagName=3#除尘在线.3#除尘在线.颗粒物干,namaspaceIndex=2@@1-3号除尘在线DCS数据-颗粒物干-5分钟采集一次
-tagName=3#除尘在线.3#除尘在线.颗粒物排放速率,namaspaceIndex=2@@1-3号除尘在线DCS数据-颗粒物排放速率-5分钟采集一次
-tagName=3#除尘在线.3#除尘在线.颗粒物湿,namaspaceIndex=2@@1-3号除尘在线DCS数据-颗粒物湿-5分钟采集一次
-tagName=3#除尘在线.3#除尘在线.烟气流速,namaspaceIndex=2@@1-3号除尘在线DCS数据-烟气流速-5分钟采集一次
-tagName=3#除尘在线.3#除尘在线.烟气湿度,namaspaceIndex=2@@1-3号除尘在线DCS数据-烟气湿度-5分钟采集一次
-tagName=3#除尘在线.3#除尘在线.烟气温度,namaspaceIndex=2@@1-3号除尘在线DCS数据-烟气温度-5分钟采集一次
-tagName=3#除尘在线.3#除尘在线.烟气压力,namaspaceIndex=2@@1-3号除尘在线DCS数据-烟气压力-5分钟采集一次
-tagName=3#除尘在线.3#除尘在线.氧干,namaspaceIndex=2@@1-3号除尘在线DCS数据-氧干-5分钟采集一次
-tagName=精炼2.渣房北洗车机.电流,namaspaceIndex=2@@1-3号渣房洗车机电流-渣房北洗车机电流-实时采集
-tagName=精炼2.渣房北洗车机.水压,namaspaceIndex=2@@1-3号渣房洗车机电流-渣房北洗车机水压-实时采集
-tagName=精炼2.渣房南门洗车机.电流,namaspaceIndex=2@@1-3号渣房洗车机电流-渣房南洗车机电流-实时采集
-tagName=精炼2.渣房南门洗车机.水压,namaspaceIndex=2@@1-3号渣房洗车机电流-渣房南洗车机水压-实时采集
-tagName=精炼2.渣房中间门洗车机.电流,namaspaceIndex=2@@1-3号渣房洗车机电流-渣房中间洗车机电流-实时采集
-tagName=精炼2.渣房中间门洗车机.水压,namaspaceIndex=2@@1-3号渣房洗车机电流-渣房中间洗车机水压-实时采集
-tagName=精炼2.1#洗车机电流.电流,namaspaceIndex=2@@1-4号洗车机电流电压-1#洗车机电流-实时采集
-tagName=精炼2.1#洗车机水压.水压,namaspaceIndex=2@@1-4号洗车机电流电压-1#洗车机水压-实时采集
-tagName=精炼2.2#洗车机-1.电流,namaspaceIndex=2@@1-4号洗车机电流电压-2#洗车机电流-实时采集
-tagName=精炼2.2#洗车机.水压,namaspaceIndex=2@@1-4号洗车机电流电压-2#洗车机水压-实时采集
-tagName=精炼2.制氧3#洗车机.电流,namaspaceIndex=2@@1-4号洗车机电流电压-3#洗车机电流-实时采集
-tagName=精炼2.制氧3#洗车机水压.水压,namaspaceIndex=2@@1-4号洗车机电流电压-3#洗车机水压-实时采集
-tagName=精炼2.制氧4#洗车机.4#洗车机电流,namaspaceIndex=2@@1-4号洗车机电流电压-4#洗车机电流-实时采集
-tagName=精炼2.制氧4#洗车机水压.4#洗车机水压,namaspaceIndex=2@@1-4号洗车机电流电压-4#洗车机水压-实时采集
-tagName=超低排放.连铸北.5流主氧启动,namaspaceIndex=2@@1-8流切割主氧阀开显示表-目前只用5流-5分钟采集一次
-tagName=超低排放.2#精炼.计量仓振动电流,namaspaceIndex=2@@2#LF称量斗振动给料机电流-5分钟采集一次
-tagName=超低排放.2#精炼高压.A相二次电压,namaspaceIndex=2@@2#LF炉冶炼电流-5分钟采集一次
-tagName=超低排放.2#精炼.皮带电流,namaspaceIndex=2@@2#LF皮带机电流表-5分钟采集一次
-tagName=超低排放.1/2#除尘.2-2#风机电机电流,namaspaceIndex=2@@2#除尘器电机电流-5分钟采集一次
-tagName=超低排放.1/2#除尘.2-2#风机实际频率,namaspaceIndex=2@@2#除尘器电机频率-5分钟采集一次
-tagName=2#除尘在线.2#除尘在线.标态干烟气流量,namaspaceIndex=2@@2#除尘器电机风量-5分钟采集一次
-tagName=2#除尘在线.2#除尘在线.烟气压力,namaspaceIndex=2@@2#除尘器电机风压-5分钟采集一次
-tagName=超低排放.2#电炉高压.A相,namaspaceIndex=2@@2#电流冶炼电流-5分钟采集一次
-tagName=超低排放.活性炭2#smart.活性炭喷吹量,namaspaceIndex=2@@2#电炉活性炭喷吹流量表-5分钟采集一次
-tagName=超低排放.2#电炉.加成溜槽电流,namaspaceIndex=2@@2#电炉加长溜槽振动电流表-5分钟采集一次
-tagName=超低排放.2#精炼高压.A相二次电流,namaspaceIndex=2@@2#精炼冶炼电流表-5分钟一次
-tagName=超低排放.2#电炉.1#计量仓振动电流,namaspaceIndex=2@@2#炉1#称量斗电振电流表-5分钟采集一次
-tagName=超低排放.2#电炉.2#计量仓振动电流,namaspaceIndex=2@@2#炉2#称量斗电振电流表-5分钟采集一次
-tagName=超低排放.2#电炉.倾角皮带电流,namaspaceIndex=2@@2#炉大倾角皮带电流表-5分钟采集一次
-tagName=超低排放.2#水平加料.尾振电流,namaspaceIndex=2@@2#炉振动给料机电流-5分钟采集一次
-tagName=超低排放.2#水平加料.小车A相电流,namaspaceIndex=2@@2#水平加料上料干雾电流表-5分钟采集一次
-tagName=超低排放.湿法除尘北.2#除尘放灰,namaspaceIndex=2@@2#卸灰电机电流表-5分钟采集一次
-tagName=超低排放.干雾抑尘3#大包翻包热修.电流,namaspaceIndex=2@@2#铸余干雾电机电流表-5分钟采集一次
-tagName=超低排放.3#除尘.风机电机电流,namaspaceIndex=2@@3#除尘器电极电流-5分钟采集一次
-tagName=超低排放.3#除尘.风机实际频率,namaspaceIndex=2@@3#除尘器电极频率-5分钟采集一次
-tagName=3#除尘在线.3#除尘在线.标态干烟气流量,namaspaceIndex=2@@3#除尘器电极风量-5分钟采集一次
-tagName=超低排放.3#除尘.压差,namaspaceIndex=2@@3#除尘器电极风压-5分钟采集一次
-tagName=超低排放.3#除尘.3#除尘卸灰阀电流,namaspaceIndex=2@@3#卸灰电机电流表-5分钟采集一次
-tagName=超低排放.4#除尘.4#除尘电机电流.A相,namaspaceIndex=2@@4#除尘电机电流-5分钟采集一次
-tagName=超低排放.4#除尘.4#除尘频率,namaspaceIndex=2@@4#除尘电机频率-5分钟采集一次
-tagName=超低排放.4#除尘.4#除尘卸灰阀电流,namaspaceIndex=2@@4#卸灰电机电流表-5分钟采集一次
-tagName=Channel3.Device1.风机电流,namaspaceIndex=2@@6#除尘器电流-5分钟采集一次
-tagName=Channel3.Device1.风机频率,namaspaceIndex=2@@6#除尘器频率-5分钟采集一次
-tagName=轧机.高线除尘.1#仓卸料运行,namaspaceIndex=2@@6#除尘器风压-1仓-5分钟采集一次
-tagName=轧机.高线除尘.2#仓卸料运行,namaspaceIndex=2@@6#除尘器风压-2仓-5分钟采集一次
-tagName=型钢.轧机除尘.轧机除尘电流,namaspaceIndex=2@@11#除尘器电流-5分钟采集一次
-tagName=型钢.轧机除尘.实际频率,namaspaceIndex=2@@11#除尘器频率-5分钟采集一次
-tagName=型钢.轧机除尘.喷吹压力,namaspaceIndex=2@@11#除尘器风压-5分钟采集一次
-tagName=型钢.放灰信号.放灰信号,namaspaceIndex=2@@11#除尘器放灰信号-5分钟采集一次
-tagName=型钢.矫直机除尘.矫直机除尘电流,namaspaceIndex=2@@12#除尘器电流-5分钟采集一次
-tagName=型钢.矫直机除尘.实际频率,namaspaceIndex=2@@12#除尘器频率-5分钟采集一次
-tagName=型钢.矫直机除尘.喷吹压力,namaspaceIndex=2@@12#除尘器风压-5分钟采集一次
-tagName=型钢.矫直机除尘.喷吹压力,namaspaceIndex=2@@12#除尘器放灰信号-5分钟采集一次
-tagName=超低排放.湿法除尘南.7#除尘电机电流,namaspaceIndex=2@@7#除尘器电机电流-5分钟采集一次
-tagName=超低排放.湿法除尘北.8#除尘电流,namaspaceIndex=2@@8#除尘电机电流-5分钟采集一次
-tagName=超低排放.10#门东雾炮.雾炮电流,namaspaceIndex=2@@8个雾炮-10号门东雾炮-1分钟采集一次
-tagName=超低排放.10#门西雾炮.雾炮电流,namaspaceIndex=2@@8个雾炮-10号门西雾炮-1分钟采集一次
-tagName=超低排放.11号门雾炮.雾炮电流,namaspaceIndex=2@@8个雾炮-11号门雾炮-1分钟采集一次
-tagName=超低排放.1炉沉降室雾炮.雾炮电流,namaspaceIndex=2@@8个雾炮-1号炉沉降室雾炮-1分钟采集一次
-tagName=超低排放.2炉沉降室雾炮.雾炮电流,namaspaceIndex=2@@8个雾炮-2号炉沉降室雾炮-1分钟采集一次
-tagName=超低排放.7#门雾炮.雾炮电流,namaspaceIndex=2@@8个雾炮-7号门雾炮-1分钟采集一次
-tagName=超低排放.8#门北雾炮.雾炮电流,namaspaceIndex=2@@8个雾炮-8号门北雾炮-1分钟采集一次
-tagName=超低排放.8#门南雾炮.雾炮电流,namaspaceIndex=2@@8个雾炮-8号门南雾炮-1分钟采集一次
-tagName=超低排放.干雾抑尘4#绿色通道.电流,namaspaceIndex=2@@8个雾炮-干雾抑尘-1分钟采集一次
-tagName=超低排放.湿法除尘北.9#除尘电流,namaspaceIndex=2@@9#除尘器电极电流-5分钟采集一次
-tagName=超低排放.干雾抑尘2#冷修.冷修干雾抑尘,namaspaceIndex=2@@拆包干雾电流-30秒采集一次
-tagName=超低排放.连铸北.5流振动电流,namaspaceIndex=2@@干雾信号-5分钟采集一次
-tagName=超低排放.1/2#除尘.1#加压风机卸灰阀,namaspaceIndex=2@@急冷卸灰电机电流表-1号-5分钟采集一次
-tagName=超低排放.3#除尘.2#加压风机卸灰阀电流,namaspaceIndex=2@@急冷卸灰电机电流表-2号-5分钟采集一次
-tagName=超低排放.连铸拉速.1流拉速,namaspaceIndex=2@@连铸1流振动电机电流表-5分钟采集一次
-tagName=超低排放.连铸拉速.2流拉速,namaspaceIndex=2@@连铸2流振动电机电流表-5分钟采集一次
-tagName=超低排放.连铸拉速.3流拉速,namaspaceIndex=2@@连铸3流振动电机电流表-5分钟采集一次
-tagName=超低排放.连铸拉速.4流拉速,namaspaceIndex=2@@连铸4流振动电机电流表-5分钟采集一次
-tagName=超低排放.连铸拉速.5流拉速,namaspaceIndex=2@@连铸5流振动电机电流表-5分钟采集一次
-tagName=超低排放.连铸拉速.6流拉速,namaspaceIndex=2@@连铸6流振动电机电流表-5分钟采集一次
-tagName=超低排放.连铸拉速.7流拉速,namaspaceIndex=2@@连铸7流振动电机电流表-5分钟采集一次
-tagName=超低排放.连铸拉速.8流拉速,namaspaceIndex=2@@连铸8流振动电机电流表-5分钟采集一次
-tagName=超低排放.1#碳氧枪.1#炉门罐喷吹速度,namaspaceIndex=2@@1号炉门-5分钟采集一次
-tagName=超低排放.1#碳氧枪.1#炉壁罐喷吹速度,namaspaceIndex=2@@1号炉壁-5分钟采集一次
-tagName=超低排放.2#碳氧枪.2#炉门罐喷吹速度,namaspaceIndex=2@@2号炉门-5分钟采集一次
-tagName=超低排放.2#碳氧枪.2#炉壁罐喷吹速度,namaspaceIndex=2@@3号炉壁-5分钟采集一次
-tagName=超低排放.1#碳氧枪.炉壁枪料罐加料,namaspaceIndex=2@@11号气力输送信号数据表-5分钟采集一次
-tagName=超低排放.1#碳氧枪.炉门枪料罐加料,namaspaceIndex=2@@12号气力输送信号数据表-5分钟采集一次
-tagName=超低排放.2#碳氧枪.炉壁枪料罐加料,namaspaceIndex=2@@21号气力输送信号数据表-5分钟采集一次
-tagName=超低排放.2#碳氧枪.炉门枪料罐加料,namaspaceIndex=2@@22号气力输送信号数据表-5分钟采集一次
-tagName=超低排放.干雾抑尘2#冷修.切砖机电流,namaspaceIndex=2@@切转信号表-5分钟采集一次
-tagName=超低排放.干雾抑尘2#冷修.中包翻包机电流,namaspaceIndex=2@@倾翻信号表-30秒采集一次
-tagName=型钢.东大锯.东大锯电流,namaspaceIndex=2@@型钢扎线-fur1sawroom-5分钟采集一次
-tagName=型钢.西大锯.西大锯电流,namaspaceIndex=2@@型钢扎线-fur2sawroom-5分钟采集一次
-tagName=型钢.减径机.减径机k1电流,namaspaceIndex=2@@型钢扎线-reducingmill-5分钟采集一次
-tagName=轧机.精轧机电流.精轧机电流,namaspaceIndex=2@@型钢扎线-finishingmill-5分钟采集一次
-tagName=轧机.轧机.K17电流,namaspaceIndex=2@@型钢扎线-froumilste-5分钟采集一次
-tagName=轧机.轧机.东矫直机电流,namaspaceIndex=2@@型钢扎线-fur2straightener-5分钟采集一次
-tagName=轧机.轧机.水除磷,namaspaceIndex=2@@型钢扎线-waterdescaling-5分钟采集一次
-tagName=轧机.轧机.西矫直机电流,namaspaceIndex=2@@型钢扎线-fur1staightener-5分钟采集一次
-tagName=超低排放.压球机.压球机,namaspaceIndex=2@@压球下料点-5分钟采集一次
-tagName=型钢.采集.氨逃逸NH3(干),namaspaceIndex=2@@在线压测监控DCS- colnh3dry-5分钟采集一次
-tagName=型钢.采集.氨逃逸NH3(湿),namaspaceIndex=2@@在线压测监控DCS- colnh3wet-5分钟采集一次
-tagName=型钢.采集.出炉温度,namaspaceIndex=2@@在线压测监控DCS- coldistem-5分钟采集一次
-tagName=型钢.采集.氮氧化物NOx(干),namaspaceIndex=2@@在线压测监控DCS- colnoxdry-5分钟采集一次
-tagName=型钢.采集.氮氧化物NOx(湿),namaspaceIndex=2@@在线压测监控DCS- colnoxwet-5分钟采集一次
-tagName=型钢.采集.二氧化硫SO2(干),namaspaceIndex=2@@在线压测监控DCS- colso2dry-5分钟采集一次
-tagName=型钢.采集.二氧化硫SO2(湿),namaspaceIndex=2@@在线压测监控DCS- colso2wet-5分钟采集一次
-tagName=型钢.采集.二氧化硫SO2(折算),namaspaceIndex=2@@在线压测监控DCS- colso2con-5分钟采集一次
-tagName=型钢.采集.颗粒物(干),namaspaceIndex=2@@在线压测监控DCS- colpmdry-5分钟采集一次
-tagName=型钢.采集.颗粒物(湿),namaspaceIndex=2@@在线压测监控DCS- colpmwet-5分钟采集一次
-tagName=型钢.采集.颗粒物(折算),namaspaceIndex=2@@在线压测监控DCS- colpmcon-5分钟采集一次
-tagName=型钢.采集.排气流速,namaspaceIndex=2@@在线压测监控DCS- colexhflorate-5分钟采集一次
-tagName=型钢.采集.排气湿度,namaspaceIndex=2@@在线压测监控DCS- colexhflohum-5分钟采集一次
-tagName=型钢.采集.排气温度,namaspaceIndex=2@@在线压测监控DCS- colexhflotem-5分钟采集一次
-tagName=型钢.采集.排气压力,namaspaceIndex=2@@在线压测监控DCS- colexhflopre-5分钟采集一次
-tagName=型钢.采集.入炉温度,namaspaceIndex=2@@在线压测监控DCS- colenttem-5分钟采集一次
-tagName=型钢.采集.氧含量O2(湿),namaspaceIndex=2@@在线压测监控DCS- coloxycon-5分钟采集一次
-tagName=型钢.东大锯.东大锯电流,namaspaceIndex=2@@在线压测监控DCS- dongdasawcur-5分钟采集一次
-tagName=型钢.放灰信号.放灰信号,namaspaceIndex=2@@在线压测监控DCS- ashdissign-5分钟采集一次
-tagName=型钢.矫直机除尘.喷吹压力,namaspaceIndex=2@@在线压测监控DCS- drosinjpressure-5分钟采集一次
-tagName=型钢.矫直机除尘.设定频率,namaspaceIndex=2@@在线压测监控DCS- drossetfrequency-5分钟采集一次
-tagName=型钢.矫直机除尘.实际频率,namaspaceIndex=2@@在线压测监控DCS- drosactfrequency-5分钟采集一次
-tagName=型钢.脱销.SCR出口温度,namaspaceIndex=2@@在线压测监控DCS- outsscrouttemper-5分钟采集一次
-tagName=型钢.脱销.SCR出口压力,namaspaceIndex=2@@在线压测监控DCS- outsscroutpressure-5分钟采集一次
-tagName=型钢.脱销.SCR进出口压差,namaspaceIndex=2@@在线压测监控DCS- outsscrinoutpredif-5分钟采集一次
-tagName=型钢.脱销.SCR进口温度,namaspaceIndex=2@@在线压测监控DCS- outsscrintemper-5分钟采集一次
+tagName=超低排放.1#精炼.计量仓振动电流,namaspaceIndex=2//1#LF称量斗振动给料机电流表-5分钟采集一次-t_fur1lf_weibuc_electric
+tagName=超低排放.1#精炼高压.A相二次电流,namaspaceIndex=2//1#LF炉冶炼电流-5分钟采集一次-t_no1lf_smeltingcurrent
+tagName=超低排放.1#精炼.皮带电流,namaspaceIndex=2@@1#LF皮带机电流-5分钟一次-f_fur1lf_blet_electric
+tagName=超低排放.1/2#除尘.1-1#风机电机电流,namaspaceIndex=2@@1#除尘器电机电流-5分钟采集一次-t_no1_duster-ELECURVALUE_ELECURTIMESTAMP
+tagName=超低排放.1/2#除尘.1-1#风机实际频率,namaspaceIndex=2@@1#除尘器电机频率-5分钟采集一次-t_no1_duster-FREQUENCYVALUE_FREQUENCYTIMESTAMP
+tagName=1#除尘在线.1#除尘在线.标态干烟气流量,namaspaceIndex=2@@1#1#除尘器电机风量-5分钟采集一次-t_no1_duster-AIRVOLVALUE_AIRVOLTIMESTAMP
+tagName=1#除尘在线.1#除尘在线.烟气压力,namaspaceIndex=2@@1#除尘器电机风压-5分钟采集一次-t_no1_duster-WINDPREVALUE_WINDPRETIMESTAMP
+tagName=超低排放.1#电炉高压.A相,namaspaceIndex=2@@1#电流冶炼电流-5分钟采集一次-t_no1_smeltingcurrent-ELECURVALUE_ELECURTIMESTAMP
+tagName=超低排放.活性炭1#smart.活性炭喷吹量,namaspaceIndex=2@@1#电炉活性炭喷吹流量表-5分钟采集一次-t_fur1_ele_active_rate-ELECURVALUE_ELECURTIMESTAMP
+tagName=超低排放.1#电炉.加长溜槽振动电流,namaspaceIndex=2@@1#电炉加长溜槽振动电流表-5分钟采集一次-t_fur1_ext_chu_vib_ele-ELECURVALUE_ELECURTIMESTAMP
+tagName=超低排放.1#精炼高压.A相二次电流,namaspaceIndex=2@@1#精炼冶炼电流表-5分钟采集一次-t_fur1l_refining_electric-ELECURVALUE_ELECURTIMESTAMP
+tagName=超低排放.1#电炉.1#计量仓振动电流,namaspaceIndex=2@@1#炉1#称量斗电振电流表-5分钟采集一次-t_fur11_weibuc_electric-ELECURVALUE_ELECURTIMESTAMP
+tagName=超低排放.1#电炉.水平皮带电流,namaspaceIndex=2@@1#炉1#皮带电流表-5分钟采集一次-f_tur11_blet_electric-ELECURVALUE_ELECURTIMESTAMP
+tagName=超低排放.1#电炉.2#计量仓振动电流,namaspaceIndex=2@@1#炉2#称量斗电振电流表-5分钟采集一次-f_fur12_weibuc_electric-ELECURVALUE_ELECURTIMESTAMP
+tagName=超低排放.2#电炉.水平皮带电流,namaspaceIndex=2@@1#炉2#皮带电流表-5分钟采集一次-f_fur12_blet_electric-ELECURVALUE_ELECURTIMESTAMP
+tagName=超低排放.1#电炉.倾角皮带电流,namaspaceIndex=2@@1#炉大倾角皮带电流表-5分钟采集一次-f_fur1_large_belt_electric-ELECURVALUE_ELECURTIMESTAMP
+tagName=超低排放.1#水平加料.尾振电流,namaspaceIndex=2@@1#炉振动给料机电流-5分钟采集一次-t_no1_furvibfeecur-ELECURVALUE_ELECURTIMESTAMP
+tagName=超低排放.1#水平加料.1#水平加料小车电流,namaspaceIndex=2@@1#水平加料上料干雾电流表-5分钟采集一次-f_tur1_horfeedry_ele-ELECURVALUE_ELECURTIMESTAMP
+tagName=超低排放.1/2#除尘.1#除尘卸灰阀,namaspaceIndex=2@@1#卸灰电机电流表-5分钟采集一次-f_tur1_ash_unl_ele-ELECURVALUE_ELECURTIMESTAMP
+tagName=超低排放.干雾抑尘3#大包翻包热修.电流,namaspaceIndex=2@@1#铸余干雾电机电流表-2分钟采集一次-t_fur1_casresdryfog_ele-ELECURVALUE_ELECURTIMESTAMP
+tagName=1#除尘在线.1#除尘在线.O2湿,namaspaceIndex=2@@1-3号除尘在线DCS数据-02湿-5分钟采集一次-t_1to3_ded_onl-f_onl1_02wet-f_onl1_02wet_time
+tagName=1#除尘在线.1#除尘在线.标态干烟气流量,namaspaceIndex=2@@1-3号除尘在线DCS数据-标态干烟气流量-5分钟采集一次-t_1to3_ded_onl-f_onl1_stadryfluegasflow
+tagName=1#除尘在线.1#除尘在线.工况湿烟气流量,namaspaceIndex=2@@1-3号除尘在线DCS数据-工况湿烟气流量-5分钟采集一次-t_1to3_ded_onl-f_onl1_wetflueworkcond
+tagName=1#除尘在线.1#除尘在线.颗粒物（折算）,namaspaceIndex=2@@1-3号除尘在线DCS数据-颗粒物（折算）-5分钟采集一次-t_1to3_ded_onl-f_onl1_parmatter
+tagName=1#除尘在线.1#除尘在线.颗粒物干,namaspaceIndex=2@@1-3号除尘在线DCS数据-颗粒物干-5分钟采集一次-t_1to3_ded_onl-f_onl1_dryparmatter
+tagName=1#除尘在线.1#除尘在线.颗粒物排放速率,namaspaceIndex=2@@1-3号除尘在线DCS数据-颗粒物排放速率-5分钟采集一次-t_1to3_ded_onl-f_onl1_paremirate
+tagName=1#除尘在线.1#除尘在线.颗粒物湿,namaspaceIndex=2@@1-3号除尘在线DCS数据-颗粒物湿-5分钟采集一次-t_1to3_ded_onl-f_onl1_wetparmatter
+tagName=1#除尘在线.1#除尘在线.烟气流速,namaspaceIndex=2@@1-3号除尘在线DCS数据-烟气流速-5分钟采集一次-t_1to3_ded_onl-f_onl1_fluegasflowrate
+tagName=1#除尘在线.1#除尘在线.烟气湿度,namaspaceIndex=2@@1-3号除尘在线DCS数据-烟气湿度-5分钟采集一次-t_1to3_ded_onl-f_onl1_fluegashumidity
+tagName=1#除尘在线.1#除尘在线.烟气温度,namaspaceIndex=2@@1-3号除尘在线DCS数据-烟气温度-5分钟采集一次-t_1to3_ded_onl-f_onl1_fluegastemper
+tagName=1#除尘在线.1#除尘在线.烟气压力,namaspaceIndex=2@@1-3号除尘在线DCS数据-烟气压力-5分钟采集一次-t_1to3_ded_onl-f_onl1_fluegaspressure
+tagName=1#除尘在线.1#除尘在线.氧干,namaspaceIndex=2@@1-3号除尘在线DCS数据-氧干-5分钟采集一次-t_1to3_ded_onl-f_onl1_oxygendrying
+tagName=2#除尘在线.2#除尘在线.O2湿,namaspaceIndex=2@@1-3号除尘在线DCS数据-02湿-5分钟采集一次-t_1to3_ded_onl-f_onl2_02wet-f_onl2_02wet_time
+tagName=2#除尘在线.2#除尘在线.标态干烟气流量,namaspaceIndex=2@@1-3号除尘在线DCS数据-标态干烟气流量-5分钟采集一次-t_1to3_ded_onl-f_onl2_stadryfluegasflow
+tagName=2#除尘在线.2#除尘在线.工况湿烟气流量,namaspaceIndex=2@@1-3号除尘在线DCS数据-工况湿烟气流量-5分钟采集一次-t_1to3_ded_onl-f_onl2_wetflueworkcond
+tagName=2#除尘在线.2#除尘在线.颗粒物（折算）,namaspaceIndex=2@@1-3号除尘在线DCS数据-颗粒物（折算）-5分钟采集一次-t_1to3_ded_onl-f_onl2_parmatter
+tagName=2#除尘在线.2#除尘在线.颗粒物干,namaspaceIndex=2@@1-3号除尘在线DCS数据-颗粒物干-5分钟采集一次-t_1to3_ded_onl-f_onl2_dryparmatter
+tagName=2#除尘在线.2#除尘在线.颗粒物排放速率,namaspaceIndex=2@@1-3号除尘在线DCS数据-颗粒物排放速率-5分钟采集一次-t_1to3_ded_onl-f_onl2_paremirate
+tagName=2#除尘在线.2#除尘在线.颗粒物湿,namaspaceIndex=2@@1-3号除尘在线DCS数据-颗粒物湿-5分钟采集一次-t_1to3_ded_onl-f_onl2_wetparmatter
+tagName=2#除尘在线.2#除尘在线.烟气流速,namaspaceIndex=2@@1-3号除尘在线DCS数据-烟气流速-5分钟采集一次-t_1to3_ded_onl-f_onl_fluegasflowrate
+tagName=2#除尘在线.2#除尘在线.烟气湿度,namaspaceIndex=2@@1-3号除尘在线DCS数据-烟气湿度-5分钟采集一次-t_1to3_ded_onl-f_onl2_fluegashumidity
+tagName=2#除尘在线.2#除尘在线.烟气温度,namaspaceIndex=2@@1-3号除尘在线DCS数据-烟气温度-5分钟采集一次-t_1to3_ded_onl-f_onl2_fluegastemper
+tagName=2#除尘在线.2#除尘在线.烟气压力,namaspaceIndex=2@@1-3号除尘在线DCS数据-烟气压力-5分钟采集一次-t_1to3_ded_onl-f_onl2_fluegaspressure
+tagName=2#除尘在线.2#除尘在线.氧干,namaspaceIndex=2@@1-3号除尘在线DCS数据-氧干-5分钟采集一次-t_1to3_ded_onl-f_onl2_oxygendrying
+tagName=3#除尘在线.3#除尘在线.O2湿,namaspaceIndex=2@@1-3号除尘在线DCS数据-02湿-5分钟采集一次-t_1to3_ded_onl-f_onl3_02wet-f_onl3_03wet_time
+tagName=3#除尘在线.3#除尘在线.标态干烟气流量,namaspaceIndex=2@@1-3号除尘在线DCS数据-标态干烟气流量-5分钟采集一次-t_1to3_ded_onl-f_onl3_stadryfluegasflow
+tagName=3#除尘在线.3#除尘在线.工况湿烟气流量,namaspaceIndex=2@@1-3号除尘在线DCS数据-工况湿烟气流量-5分钟采集一次-t_1to3_ded_onl-f_onl3_wetflueworkcond
+tagName=3#除尘在线.3#除尘在线.颗粒物（折算）,namaspaceIndex=2@@1-3号除尘在线DCS数据-颗粒物（折算）-5分钟采集一次-t_1to3_ded_onl-f_onl3_parmatter
+tagName=3#除尘在线.3#除尘在线.颗粒物干,namaspaceIndex=2@@1-3号除尘在线DCS数据-颗粒物干-5分钟采集一次-t_1to3_ded_onl-f_onl3_dryparmatter
+tagName=3#除尘在线.3#除尘在线.颗粒物排放速率,namaspaceIndex=2@@1-3号除尘在线DCS数据-颗粒物排放速率-5分钟采集一次-t_1to3_ded_onl-f_onl3_paremirate
+tagName=3#除尘在线.3#除尘在线.颗粒物湿,namaspaceIndex=2@@1-3号除尘在线DCS数据-颗粒物湿-5分钟采集一次-t_1to3_ded_onl-f_onl3_wetparmatter
+tagName=3#除尘在线.3#除尘在线.烟气流速,namaspaceIndex=2@@1-3号除尘在线DCS数据-烟气流速-5分钟采集一次-t_1to3_ded_onl-f_onl3_fluegasflowrate
+tagName=3#除尘在线.3#除尘在线.烟气湿度,namaspaceIndex=2@@1-3号除尘在线DCS数据-烟气湿度-5分钟采集一次-t_1to3_ded_onl-f_onl3_fluegashumidity
+tagName=3#除尘在线.3#除尘在线.烟气温度,namaspaceIndex=2@@1-3号除尘在线DCS数据-烟气温度-5分钟采集一次-t_1to3_ded_onl-f_onl3_fluegastemper
+tagName=3#除尘在线.3#除尘在线.烟气压力,namaspaceIndex=2@@1-3号除尘在线DCS数据-烟气压力-5分钟采集一次-t_1to3_ded_onl-f_onl3_fluegaspressure
+tagName=3#除尘在线.3#除尘在线.氧干,namaspaceIndex=2@@1-3号除尘在线DCS数据-氧干-5分钟采集一次-t_1to3_ded_onl-f_onl3_oxygendrying
+tagName=精炼2.渣房北洗车机.电流,namaspaceIndex=2@@1-3号渣房洗车机电流-渣房北洗车机电流-实时采集-t_slagroom-SLAGROOMNO2ELE-SLAGROOMNO2TIME
+tagName=精炼2.渣房北洗车机.水压,namaspaceIndex=2@@1-3号渣房洗车机电流-渣房北洗车机水压-实时采集-t_slagroom-SLAGROOMNO2VOL-SLAGROOMNO2VOLTIME
+tagName=精炼2.渣房南门洗车机.电流,namaspaceIndex=2@@1-3号渣房洗车机电流-渣房南洗车机电流-实时采集-t_slagroom-SLAGROOMNO1ELE-SLAGROOMNO1TIME
+tagName=精炼2.渣房南门洗车机.水压,namaspaceIndex=2@@1-3号渣房洗车机电流-渣房南洗车机水压-实时采集-t_slagroom-SLAGROOMNO1VOL-SLAGROOMNO1VOLTIME
+tagName=精炼2.渣房中间门洗车机.电流,namaspaceIndex=2@@1-3号渣房洗车机电流-渣房中间洗车机电流-实时采集-t_slagroom-SLAGROOMNO3ELE-SLAGROOMNO3TIME
+tagName=精炼2.渣房中间门洗车机.水压,namaspaceIndex=2@@1-3号渣房洗车机电流-渣房中间洗车机水压-实时采集-t_slagroom-SLAGROOMNO3VOL-SLAGROOMNO3VOLTIME
+tagName=精炼2.1#洗车机电流.电流,namaspaceIndex=2@@1-4号洗车机电流电压-1#洗车机电流-实时采集-t_carwashmachine-CARWASHMACHINE1ELE-CARWASHMACHINE1TIME
+tagName=精炼2.1#洗车机水压.水压,namaspaceIndex=2@@1-4号洗车机电流电压-1#洗车机水压-实时采集-t_carwashmachine-CARWASHMACHINE1VOL-CARWASHMACHINEVOL1TIME
+tagName=精炼2.2#洗车机-1.电流,namaspaceIndex=2@@1-4号洗车机电流电压-2#洗车机电流-实时采集-t_carwashmachine_CARWASHMACHINE2ELE-CARWASHMACHINE2TIME
+tagName=精炼2.2#洗车机.水压,namaspaceIndex=2@@1-4号洗车机电流电压-2#洗车机水压-实时采集-t_carwashmachine_CARWASHMACHINE2VOL-CARWASHMACHINEVOL2TIME
+tagName=精炼2.制氧3#洗车机.电流,namaspaceIndex=2@@1-4号洗车机电流电压-3#洗车机电流-实时采集-t_carwashmachine_CARWASHMACHINE3ELE-CARWASHMACHINE3TIME
+tagName=精炼2.制氧3#洗车机水压.水压,namaspaceIndex=2@@1-4号洗车机电流电压-3#洗车机水压-实时采集-t_carwashmachine_CARWASHMACHINE3VOL-CARWASHMACHINEVOL3TIME
+tagName=精炼2.制氧4#洗车机.4#洗车机电流,namaspaceIndex=2@@1-4号洗车机电流电压-4#洗车机电流-实时采集-t_carwashmachine_CARWASHMACHINE4ELE-CARWASHMACHINE4TIME
+tagName=精炼2.制氧4#洗车机水压.4#洗车机水压,namaspaceIndex=2@@1-4号洗车机电流电压-4#洗车机水压-实时采集-t_carwashmachine_CARWASHMACHINE4VOL-CARWASHMACHINEVOL4TIME
+tagName=超低排放.连铸北.5流主氧启动,namaspaceIndex=2@@1-8流切割主氧阀开显示表-目前只用5流-5分钟采集一次-t_flowcutmainoxy_sta-MAINOXYSTART5-MAINOXYSTART5TIME
+tagName=超低排放.2#精炼.计量仓振动电流,namaspaceIndex=2@@2#LF称量斗振动给料机电流-5分钟采集一次-t_fur2lf_weibuc_electric-ELECURVALUE-ELECURTIMESTAMP
+tagName=超低排放.2#精炼高压.A相二次电压,namaspaceIndex=2@@2#LF炉冶炼电流-5分钟采集一次-t_no2lf_smeltingcurrent-ELECURVALUE-ELECURTIMESTAMP
+tagName=超低排放.2#精炼.皮带电流,namaspaceIndex=2@@2#LF皮带机电流表-5分钟采集一次-t_fur2lf_blet_electric-ELECURVALUE-ELECURTIMESTAMP
+tagName=超低排放.1/2#除尘.2-2#风机电机电流,namaspaceIndex=2@@2#除尘器电机电流-5分钟采集一次-t_no2_duster-ELECURVALUE-ELECURTIMESTAMP
+tagName=超低排放.1/2#除尘.2-2#风机实际频率,namaspaceIndex=2@@2#除尘器电机频率-5分钟采集一次-t_no2_duster-FREQUENCYVALUE-FREQUENCYTIMESTAMP
+tagName=2#除尘在线.2#除尘在线.标态干烟气流量,namaspaceIndex=2@@2#除尘器电机风量-5分钟采集一次-t_no2_duster-AIRVOLVALUE-AIRVOLTIMESTAMP
+tagName=2#除尘在线.2#除尘在线.烟气压力,namaspaceIndex=2@@2#除尘器电机风压-5分钟采集一次-t_no2_duster-WINDPREVALUE-WINDPRETIMESTAMP
+tagName=超低排放.2#电炉高压.A相,namaspaceIndex=2@@2#电流冶炼电流-5分钟采集一次-t_no2_smeltingcurrent-WINDPREVALUE-WINDPRETIMESTAMP
+tagName=超低排放.活性炭2#smart.活性炭喷吹量,namaspaceIndex=2@@2#电炉活性炭喷吹流量表-5分钟采集一次-t_fur2_ele_active_rate-ELECURVALUE-ELECURTIMESTAMP
+tagName=超低排放.2#电炉.加成溜槽电流,namaspaceIndex=2@@2#电炉加长溜槽振动电流表-5分钟采集一次-t_fur2_ext_chu_vib_ele-ELECURVALUE-ELECURTIMESTAMP
+tagName=超低排放.2#精炼高压.A相二次电流,namaspaceIndex=2@@2#精炼冶炼电流表-5分钟一次-t_fur2l_refining_electric-ELECURVALUE-ELECURTIMESTAMP
+tagName=超低排放.2#电炉.1#计量仓振动电流,namaspaceIndex=2@@2#炉1#称量斗电振电流表-5分钟采集一次-t_fur21_weibuc_electric-ELECURVALUE-ELECURTIMESTAMP
+tagName=超低排放.2#电炉.2#计量仓振动电流,namaspaceIndex=2@@2#炉2#称量斗电振电流表-5分钟采集一次-t_fur22_weibuc_electric-ELECURVALUE-ELECURTIMESTAMP
+tagName=超低排放.2#电炉.倾角皮带电流,namaspaceIndex=2@@2#炉大倾角皮带电流表-5分钟采集一次-t_fur2_large_belt_electric-ELECURVALUE-ELECURTIMESTAMP
+tagName=超低排放.2#水平加料.尾振电流,namaspaceIndex=2@@2#炉振动给料机电流-5分钟采集一次-t_no2_furvibfeecur-ELECURVALUE-ELECURTIMESTAMP
+tagName=超低排放.2#水平加料.小车A相电流,namaspaceIndex=2@@2#水平加料上料干雾电流表-5分钟采集一次-f_fur2_horfeedry_ele-ELECURVALUE-ELECURTIMESTAMP
+tagName=超低排放.湿法除尘北.2#除尘放灰,namaspaceIndex=2@@2#卸灰电机电流表-5分钟采集一次-f_fur2_ash_unl_ele-ELECURVALUE-ELECURTIMESTAMP
+tagName=超低排放.干雾抑尘3#大包翻包热修.电流,namaspaceIndex=2@@2#铸余干雾电机电流表-5分钟采集一次-t_fur2_casresdryfog_ele-ELECURVALUE-ELECURTIMESTAMP
+tagName=超低排放.3#除尘.风机电机电流,namaspaceIndex=2@@3#除尘器电极电流-5分钟采集一次-t_no3_duster-ELECURVALUE-ELECURTIMESTAMP
+tagName=超低排放.3#除尘.风机实际频率,namaspaceIndex=2@@3#除尘器电极频率-5分钟采集一次-t_no3_duster-FREQUENCYVALUE-FREQUENCYTIMESTAMP
+tagName=3#除尘在线.3#除尘在线.标态干烟气流量,namaspaceIndex=2@@3#除尘器电极风量-5分钟采集一次-t_no3_duster-AIRVOLVALUE-AIRVOLTIMESTAMP
+tagName=超低排放.3#除尘.压差,namaspaceIndex=2@@3#除尘器电极风压-5分钟采集一次-t_no3_duster-WINDPREVALUE-WINDPRETIMESTAMP
+tagName=超低排放.3#除尘.3#除尘卸灰阀电流,namaspaceIndex=2@@3#卸灰电机电流表-5分钟采集一次-t_fur3_ash_unl_ele-ELECURVALUE-ELECURTIMESTAMP
+tagName=超低排放.4#除尘.4#除尘电机电流.A相,namaspaceIndex=2@@4#除尘电机电流-5分钟采集一次-t_no4_duster-ELECURVALUE-ELECURTIMESTAMP
+tagName=超低排放.4#除尘.4#除尘频率,namaspaceIndex=2@@4#除尘电机频率-5分钟采集一次-t_no4_duster-FREQUENCYVALUE-FREQUENCYTIMESTAMP
+tagName=超低排放.4#除尘.4#除尘卸灰阀电流,namaspaceIndex=2@@4#卸灰电机电流表-5分钟采集一次-t_fur4_ash_unl_ele-ELECURVALUE-ELECURTIMESTAMP
+tagName=Channel3.Device1.风机电流,namaspaceIndex=2@@6#除尘器电流-5分钟采集一次-t_sixeletwe_dustcol-f_sixdustcol_ele-f_sixdustcol_time
+tagName=Channel3.Device1.风机频率,namaspaceIndex=2@@6#除尘器频率-5分钟采集一次-t_sixeletwe_dustcol-f_sixductcol_fre
+tagName=轧机.高线除尘.1#仓卸料运行,namaspaceIndex=2@@6#除尘器风压-1仓-5分钟采集一次-t_sixeletwe_dustcol-f_sixdustcolno1_sig
+tagName=轧机.高线除尘.2#仓卸料运行,namaspaceIndex=2@@6#除尘器风压-2仓-5分钟采集一次-t_sixeletwe_dustcol-f_sixdustcolno2_sig
+tagName=型钢.轧机除尘.轧机除尘电流,namaspaceIndex=2@@11#除尘器电流-5分钟采集一次-t_sixeletwe_dustcol-f_eledustcol_ele-f_eledustcol_time
+tagName=型钢.轧机除尘.实际频率,namaspaceIndex=2@@11#除尘器频率-5分钟采集一次-t_sixeletwe_dustcol-f_eledustcol_fre
+tagName=型钢.轧机除尘.喷吹压力,namaspaceIndex=2@@11#除尘器风压-5分钟采集一次-t_sixeletwe_dustcol-f_eledustcol_pre
+tagName=型钢.放灰信号.放灰信号,namaspaceIndex=2@@11#除尘器放灰信号-5分钟采集一次-t_sixeletwe_dustcol-f_eledustcol_sig
+tagName=型钢.矫直机除尘.矫直机除尘电流,namaspaceIndex=2@@12#除尘器电流-5分钟采集一次-t_sixeletwe_dustcol-f_twedustcol_ele
+tagName=型钢.矫直机除尘.实际频率,namaspaceIndex=2@@12#除尘器频率-5分钟采集一次-t_sixeletwe_dustcol-f_twedustcol_fre
+tagName=型钢.矫直机除尘.喷吹压力,namaspaceIndex=2@@12#除尘器风压-5分钟采集一次-t_sixeletwe_dustcol-f_twedustcol_pre
+tagName=型钢.矫直机除尘.12#除尘放灰信号,namaspaceIndex=2@@12#除尘器放灰信号-5分钟采集一次-t_sixeletwe_dustcol-f_twedustcol_sig-f_twedustcol_time
+tagName=超低排放.湿法除尘南.7#除尘电机电流,namaspaceIndex=2@@7#除尘器电机电流-5分钟采集一次-t_fur7_dedmot_ele-ELECURVALUE-ELECURTIMESTAMP
+tagName=超低排放.湿法除尘北.8#除尘电流,namaspaceIndex=2@@8#除尘电机电流-5分钟采集一次-t_fur8_dedmot_ele-ELECURVALUE-ELECURTIMESTAMP
+tagName=超低排放.10#门东雾炮.雾炮电流,namaspaceIndex=2@@8个雾炮-10号门东雾炮-1分钟采集一次-t_fogcannon-f_no10_eastfoggun
+tagName=超低排放.10#门西雾炮.雾炮电流,namaspaceIndex=2@@8个雾炮-10号门西雾炮-1分钟采集一次-t_fogcannon-f_no10_westfoggun
+tagName=超低排放.11号门雾炮.雾炮电流,namaspaceIndex=2@@8个雾炮-11号门雾炮-1分钟采集一次-t_fogcannon-f_no11_foggun
+tagName=超低排放.1炉沉降室雾炮.雾炮电流,namaspaceIndex=2@@8个雾炮-1号炉沉降室雾炮-1分钟采集一次-t_fogcannon-t_no1_setchafoggun-f_foggun_time
+tagName=超低排放.2炉沉降室雾炮.雾炮电流,namaspaceIndex=2@@8个雾炮-2号炉沉降室雾炮-1分钟采集一次-t_fogcannon-f_no2_setchafoggun
+tagName=超低排放.7#门雾炮.雾炮电流,namaspaceIndex=2@@8个雾炮-7号门雾炮-1分钟采集一次-t_fogcannon-f_no7_foggun
+tagName=超低排放.8#门北雾炮.雾炮电流,namaspaceIndex=2@@8个雾炮-8号门北雾炮-1分钟采集一次-t_fogcannon-f_no8_northfoggun
+tagName=超低排放.8#门南雾炮.雾炮电流,namaspaceIndex=2@@8个雾炮-8号门南雾炮-1分钟采集一次-t_fogcannon-f_no8_southfoggun
+tagName=超低排放.干雾抑尘4#绿色通道.电流,namaspaceIndex=2@@8个雾炮-干雾抑尘-1分钟采集一次-t_fogcannon-f_dryfogsinnal
+tagName=超低排放.湿法除尘北.9#除尘电流,namaspaceIndex=2@@9#除尘器电极电流-5分钟采集一次-t_fur9_dedmot_ele-ELECURVALUE-ELECURTIMESTAMP
+tagName=超低排放.干雾抑尘2#冷修.冷修干雾抑尘,namaspaceIndex=2@@拆包干雾电流-30秒采集一次-t_unpdryfog_ele-ELECURVALUE-ELECURTIMESTAMP
+tagName=超低排放.连铸北.5流振动电流,namaspaceIndex=2@@干雾信号-5分钟采集一次-t_dry_fog_signal-ELECURVALUE-ELECURTIMESTAMP
+tagName=超低排放.1/2#除尘.1#加压风机卸灰阀,namaspaceIndex=2@@急冷卸灰电机电流表-1号-5分钟采集一次-t_queashunlmotcur-f_fur1_motcur_value-f_fur1_motcur_time
+tagName=超低排放.3#除尘.2#加压风机卸灰阀电流,namaspaceIndex=2@@急冷卸灰电机电流表-2号-5分钟采集一次-t_queashunlmotcur-f_fur2_motcur_value-f_fur2_motcur_time
+tagName=超低排放.连铸拉速.1流拉速,namaspaceIndex=2@@连铸1流振动电机电流表-5分钟采集一次-t_concasvibmot_ele-ELECURVALUE1-ELECURTIMESTAMP1
+tagName=超低排放.连铸拉速.2流拉速,namaspaceIndex=2@@连铸2流振动电机电流表-5分钟采集一次-t_concasvibmot_ele-ELECURVALUE2-ELECURTIMESTAMP2
+tagName=超低排放.连铸拉速.3流拉速,namaspaceIndex=2@@连铸3流振动电机电流表-5分钟采集一次-t_concasvibmot_ele-ELECURVALUE3-ELECURTIMESTAMP3
+tagName=超低排放.连铸拉速.4流拉速,namaspaceIndex=2@@连铸4流振动电机电流表-5分钟采集一次-t_concasvibmot_ele-ELECURVALUE4-ELECURTIMESTAMP4
+tagName=超低排放.连铸拉速.5流拉速,namaspaceIndex=2@@连铸5流振动电机电流表-5分钟采集一次-t_concasvibmot_ele-ELECURVALUE5-ELECURTIMESTAMP5
+tagName=超低排放.连铸拉速.6流拉速,namaspaceIndex=2@@连铸6流振动电机电流表-5分钟采集一次-t_concasvibmot_ele-ELECURVALUE6-ELECURTIMESTAMP6
+tagName=超低排放.连铸拉速.7流拉速,namaspaceIndex=2@@连铸7流振动电机电流表-5分钟采集一次-t_concasvibmot_ele-ELECURVALUE7-ELECURTIMESTAMP7
+tagName=超低排放.连铸拉速.8流拉速,namaspaceIndex=2@@连铸8流振动电机电流表-5分钟采集一次-t_concasvibmot_ele-ELECURVALUE8-ELECURTIMESTAMP8
+tagName=超低排放.1#碳氧枪.1#炉门罐喷吹速度,namaspaceIndex=2@@1号炉门-5分钟采集一次-t_furdoorandwall-t_one_door-f_time
+tagName=超低排放.1#碳氧枪.1#炉壁罐喷吹速度,namaspaceIndex=2@@1号炉壁-5分钟采集一次-t_furdoorandwall-f_one_wall
+tagName=超低排放.2#碳氧枪.2#炉门罐喷吹速度,namaspaceIndex=2@@2号炉门-5分钟采集一次-t_furdoorandwall-t_two_door
+tagName=超低排放.2#碳氧枪.2#炉壁罐喷吹速度,namaspaceIndex=2@@2号炉壁-5分钟采集一次-t_furdoorandwall-t_two_wall
+tagName=超低排放.1#碳氧枪.炉壁枪料罐加料,namaspaceIndex=2@@11号气力输送信号数据表-5分钟采集一次-t_penconsignal-f_fur11_penconsig-f_fur11_signal_time
+tagName=超低排放.1#碳氧枪.炉门枪料罐加料,namaspaceIndex=2@@12号气力输送信号数据表-5分钟采集一次-t_penconsignal-f_fur12_penconsig-f_fur12_signal_time
+tagName=超低排放.2#碳氧枪.炉壁枪料罐加料,namaspaceIndex=2@@21号气力输送信号数据表-5分钟采集一次-t_penconsignal-f_fur21_penconsig-f_fur21_signal_time
+tagName=超低排放.2#碳氧枪.炉门枪料罐加料,namaspaceIndex=2@@22号气力输送信号数据表-5分钟采集一次-t_penconsignal-f_fur22_penconsig-f_fur22_signal_time
+tagName=超低排放.干雾抑尘2#冷修.切砖机电流,namaspaceIndex=2@@切转信号表-5分钟采集一次-t_brick_cut_sing-ELECURVALUE-ELECURTIMESTAMP
+tagName=超低排放.干雾抑尘2#冷修.中包翻包机电流,namaspaceIndex=2@@倾翻信号表-30秒采集一次-t_tip_sign-ELECURVALUE-ELECURTIMESTAMP
+tagName=型钢.东大锯.东大锯电流,namaspaceIndex=2@@型钢扎线-fur1sawroom-5分钟采集一次-t_secstebinpoint-f_fur1_sawroom_value-f_fur1_sawroom_time
+tagName=型钢.西大锯.西大锯电流,namaspaceIndex=2@@型钢扎线-fur2sawroom-5分钟采集一次-t_secstebinpoint-f_fur2_sawroom_value-f_fur2_sawroom_time
+tagName=型钢.减径机.减径机k1电流,namaspaceIndex=2@@型钢扎线-reducingmill-5分钟采集一次-t_secstebinpoint-f_reducingmill_value-f_reducingmill_time
+tagName=轧机.精轧机电流.精轧机电流,namaspaceIndex=2@@型钢扎线-finishingmill-5分钟采集一次-t_secstebinpoint-f_finishingmill_value-f_finishingmill_time
+tagName=轧机.轧机.K17电流,namaspaceIndex=2@@型钢扎线-froumilste-5分钟采集一次-t_secstebinpoint-f_roumiste_value-f_roumiste_signal
+tagName=轧机.轧机.东矫直机电流,namaspaceIndex=2@@型钢扎线-fur2straightener-5分钟采集一次-t_secstebinpoint-f_fur2_straightener_value-f_fur2_straightener_time
+tagName=轧机.轧机.水除磷,namaspaceIndex=2@@型钢扎线-waterdescaling-5分钟采集一次-t_secstebinpoint-f_water_descaling_value-f_water_descaling_time
+tagName=轧机.轧机.西矫直机电流,namaspaceIndex=2@@型钢扎线-fur1staightener-5分钟采集一次-t_secstebinpoint-f_fur1_straightener_value-f_fur1_straightener_time
+tagName=超低排放.压球机.压球机,namaspaceIndex=2@@压球下料点-5分钟采集一次-t_feedpointofballpress-ELECURVALUE-ELECURTIMESTAMP
+tagName=型钢.采集.氨逃逸NH3(干),namaspaceIndex=2@@在线压测监控DCS- colnh3dry-5分钟采集一次-t_onl_smoke_monitoring-f_col_nh3dry-f_time
+tagName=型钢.采集.氨逃逸NH3(湿),namaspaceIndex=2@@在线压测监控DCS- colnh3wet-5分钟采集一次-t_onl_smoke_monitoring-f_col_nh3wet
+tagName=型钢.采集.出炉温度,namaspaceIndex=2@@在线压测监控DCS- coldistem-5分钟采集一次-t_onl_smoke_monitoring-f_col_distem
+tagName=型钢.采集.氮氧化物NOx(干),namaspaceIndex=2@@在线压测监控DCS- colnoxdry-5分钟采集一次-t_onl_smoke_monitoring-f_col_noxdry
+tagName=型钢.采集.氮氧化物NOx(湿),namaspaceIndex=2@@在线压测监控DCS- colnoxwet-5分钟采集一次-t_onl_smoke_monitoring-f_col_noxwet
+tagName=型钢.采集.二氧化硫SO2(干),namaspaceIndex=2@@在线压测监控DCS- colso2dry-5分钟采集一次-t_onl_smoke_monitoring-f_col_so2dry
+tagName=型钢.采集.二氧化硫SO2(湿),namaspaceIndex=2@@在线压测监控DCS- colso2wet-5分钟采集一次-t_onl_smoke_monitoring-f_col_so2wet
+tagName=型钢.采集.二氧化硫SO2(折算),namaspaceIndex=2@@在线压测监控DCS- colso2con-5分钟采集一次-t_onl_smoke_monitoring-f_col_so2con
+tagName=型钢.采集.颗粒物(干),namaspaceIndex=2@@在线压测监控DCS- colpmdry-5分钟采集一次-t_onl_smoke_monitoring-f_col_pmdry
+tagName=型钢.采集.颗粒物(湿),namaspaceIndex=2@@在线压测监控DCS- colpmwet-5分钟采集一次-t_onl_smoke_monitoring-f_col_pmwet
+tagName=型钢.采集.颗粒物(折算),namaspaceIndex=2@@在线压测监控DCS- colpmcon-5分钟采集一次-t_onl_smoke_monitoring-f_col_pmcom
+tagName=型钢.采集.排气流速,namaspaceIndex=2@@在线压测监控DCS- colexhflorate-5分钟采集一次-t_onl_smoke_monitoring-f_col_exhflorate
+tagName=型钢.采集.排气湿度,namaspaceIndex=2@@在线压测监控DCS- colexhflohum-5分钟采集一次-t_onl_smoke_monitoring-f_col_exhflohum
+tagName=型钢.采集.排气温度,namaspaceIndex=2@@在线压测监控DCS- colexhflotem-5分钟采集一次-t_onl_smoke_monitoring-f_col_exhflotem
+tagName=型钢.采集.排气压力,namaspaceIndex=2@@在线压测监控DCS- colexhflopre-5分钟采集一次-t_onl_smoke_monitoring-f_col_exhflopre
+tagName=型钢.采集.入炉温度,namaspaceIndex=2@@在线压测监控DCS- colenttem-5分钟采集一次-t_onl_smoke_monitoring-f_col_enttem
+tagName=型钢.采集.氧含量O2(湿),namaspaceIndex=2@@在线压测监控DCS- coloxycon-5分钟采集一次-t_onl_smoke_monitoring-f_col_oxycon
+tagName=型钢.东大锯.东大锯电流,namaspaceIndex=2@@在线压测监控DCS- dongdasawcur-5分钟采集一次-t_onl_smoke_monitoring-f_dongda_sawcur
+tagName=型钢.放灰信号.放灰信号,namaspaceIndex=2@@在线压测监控DCS- ashdissign-5分钟采集一次-t_onl_smoke_monitoring-f_ashdis_sign
+tagName=型钢.矫直机除尘.进出口压差,namaspaceIndex=2@@在线压测监控DCS- prediff-5分钟采集一次-t_onl_smoke_monitoring-f_dros_inoutprediff
+tagName=型钢.矫直机除尘.喷吹压力,namaspaceIndex=2@@在线压测监控DCS- drosinjpressure-5分钟采集一次-t_onl_smoke_monitoring-f_dros_injpressure
+tagName=型钢.矫直机除尘.设定频率,namaspaceIndex=2@@在线压测监控DCS- drossetfrequency-5分钟采集一次-t_onl_smoke_monitoring-f_dros_setfrequency
+tagName=型钢.矫直机除尘.实际频率,namaspaceIndex=2@@在线压测监控DCS- drosactfrequency-5分钟采集一次-t_onl_smoke_monitoring-f_dros_actfrequency
+tagName=型钢.脱销.SCR出口温度,namaspaceIndex=2@@在线压测监控DCS- outsscrouttemper-5分钟采集一次-t_onl_smoke_monitoring-f_outs_scrouttemper
+tagName=型钢.脱销.SCR出口压力,namaspaceIndex=2@@在线压测监控DCS- outsscroutpressure-5分钟采集一次-t_onl_smoke_monitoring-f_outs_scroutpressure
+tagName=型钢.脱销.SCR进出口压差,namaspaceIndex=2@@在线压测监控DCS- outsscrinoutpredif-5分钟采集一次-t_onl_smoke_monitoring-f_outs_scrinoutpredif
+tagName=型钢.脱销.SCR进口温度,namaspaceIndex=2@@在线压测监控DCS- outsscrintemper-5分钟采集一次-t_onl_smoke_monitoring-f_outs_scrintemper
 tagName=型钢.脱销.SCR进口压力,namaspaceIndex=2@@在线压测监控DCS- outsscrinpressure-5分钟采集一次
 tagName=型钢.脱销.氨逃逸NH3(折算),namaspaceIndex=2@@在线压测监控DCS- drosnh3con-5分钟采集一次
 tagName=型钢.脱销.氮氧化物NOx(折算),namaspaceIndex=2@@在线压测监控DCS- drosnoxcon-5分钟采集一次

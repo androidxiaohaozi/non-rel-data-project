@@ -1,0 +1,11 @@
+tagName=超低排放.10#门东雾炮.雾炮电流,namaspaceIndex=2@@8个雾炮-10号门东雾炮-1分钟采集一次
+tagName=超低排放.10#门西雾炮.雾炮电流,namaspaceIndex=2@@8个雾炮-10号门西雾炮-1分钟采集一次
+tagName=超低排放.11号门雾炮.雾炮电流,namaspaceIndex=2@@8个雾炮-11号门雾炮-1分钟采集一次
+tagName=超低排放.1炉沉降室雾炮.雾炮电流,namaspaceIndex=2@@8个雾炮-1号炉沉降室雾炮-1分钟采集一次
+tagName=超低排放.2炉沉降室雾炮.雾炮电流,namaspaceIndex=2@@8个雾炮-2号炉沉降室雾炮-1分钟采集一次
+tagName=超低排放.7#门雾炮.雾炮电流,namaspaceIndex=2@@8个雾炮-7号门雾炮-1分钟采集一次
+tagName=超低排放.8#门北雾炮.雾炮电流,namaspaceIndex=2@@8个雾炮-8号门北雾炮-1分钟采集一次
+tagName=超低排放.8#门南雾炮.雾炮电流,namaspaceIndex=2@@8个雾炮-8号门南雾炮-1分钟采集一次
+tagName=超低排放.干雾抑尘4#绿色通道.电流,namaspaceIndex=2@@8个雾炮-干雾抑尘-1分钟采集一次
+tagName=超低排放.干雾抑尘2#冷修.冷修干雾抑尘,namaspaceIndex=2@@拆包干雾电流-30秒采集一次
+tagName=超低排放.干雾抑尘2#冷修.中包翻包机电流,namaspaceIndex=2@@倾翻信号表-30秒采集一次

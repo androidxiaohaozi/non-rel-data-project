@@ -54,20 +54,6 @@ tagName=3#除尘在线.3#除尘在线.烟气湿度,namaspaceIndex=2@@1-3号除�
 tagName=3#除尘在线.3#除尘在线.烟气温度,namaspaceIndex=2@@1-3号除尘在线DCS数据-烟气温度-5分钟采集一次
 tagName=3#除尘在线.3#除尘在线.烟气压力,namaspaceIndex=2@@1-3号除尘在线DCS数据-烟气压力-5分钟采集一次
 tagName=3#除尘在线.3#除尘在线.氧干,namaspaceIndex=2@@1-3号除尘在线DCS数据-氧干-5分钟采集一次
-tagName=精炼2.渣房北洗车机.电流,namaspaceIndex=2@@1-3号渣房洗车机电流-渣房北洗车机电流-实时采集
-tagName=精炼2.渣房北洗车机.水压,namaspaceIndex=2@@1-3号渣房洗车机电流-渣房北洗车机水压-实时采集
-tagName=精炼2.渣房南门洗车机.电流,namaspaceIndex=2@@1-3号渣房洗车机电流-渣房南洗车机电流-实时采集
-tagName=精炼2.渣房南门洗车机.水压,namaspaceIndex=2@@1-3号渣房洗车机电流-渣房南洗车机水压-实时采集
-tagName=精炼2.渣房中间门洗车机.电流,namaspaceIndex=2@@1-3号渣房洗车机电流-渣房中间洗车机电流-实时采集
-tagName=精炼2.渣房中间门洗车机.水压,namaspaceIndex=2@@1-3号渣房洗车机电流-渣房中间洗车机水压-实时采集
-tagName=精炼2.1#洗车机电流.电流,namaspaceIndex=2@@1-4号洗车机电流电压-1#洗车机电流-实时采集
-tagName=精炼2.1#洗车机水压.水压,namaspaceIndex=2@@1-4号洗车机电流电压-1#洗车机水压-实时采集
-tagName=精炼2.2#洗车机-1.电流,namaspaceIndex=2@@1-4号洗车机电流电压-2#洗车机电流-实时采集
-tagName=精炼2.2#洗车机.水压,namaspaceIndex=2@@1-4号洗车机电流电压-2#洗车机水压-实时采集
-tagName=精炼2.制氧3#洗车机.电流,namaspaceIndex=2@@1-4号洗车机电流电压-3#洗车机电流-实时采集
-tagName=精炼2.制氧3#洗车机水压.水压,namaspaceIndex=2@@1-4号洗车机电流电压-3#洗车机水压-实时采集
-tagName=精炼2.制氧4#洗车机.4#洗车机电流,namaspaceIndex=2@@1-4号洗车机电流电压-4#洗车机电流-实时采集
-tagName=精炼2.制氧4#洗车机水压.4#洗车机水压,namaspaceIndex=2@@1-4号洗车机电流电压-4#洗车机水压-实时采集
 tagName=超低排放.连铸北.5流主氧启动,namaspaceIndex=2@@1-8流切割主氧阀开显示表-目前只用5流-5分钟采集一次
 tagName=超低排放.2#精炼.计量仓振动电流,namaspaceIndex=2@@2#LF称量斗振动给料机电流-5分钟采集一次
 tagName=超低排放.2#精炼高压.A相二次电压,namaspaceIndex=2@@2#LF炉冶炼电流-5分钟采集一次
@@ -109,17 +95,6 @@ tagName=型钢.矫直机除尘.喷吹压力,namaspaceIndex=2@@12#除尘器风压
 tagName=型钢.矫直机除尘.喷吹压力,namaspaceIndex=2@@12#除尘器放灰信号-5分钟采集一次
 tagName=超低排放.湿法除尘南.7#除尘电机电流,namaspaceIndex=2@@7#除尘器电机电流-5分钟采集一次
 tagName=超低排放.湿法除尘北.8#除尘电流,namaspaceIndex=2@@8#除尘电机电流-5分钟采集一次
-tagName=超低排放.10#门东雾炮.雾炮电流,namaspaceIndex=2@@8个雾炮-10号门东雾炮-1分钟采集一次
-tagName=超低排放.10#门西雾炮.雾炮电流,namaspaceIndex=2@@8个雾炮-10号门西雾炮-1分钟采集一次
-tagName=超低排放.11号门雾炮.雾炮电流,namaspaceIndex=2@@8个雾炮-11号门雾炮-1分钟采集一次
-tagName=超低排放.1炉沉降室雾炮.雾炮电流,namaspaceIndex=2@@8个雾炮-1号炉沉降室雾炮-1分钟采集一次
-tagName=超低排放.2炉沉降室雾炮.雾炮电流,namaspaceIndex=2@@8个雾炮-2号炉沉降室雾炮-1分钟采集一次
-tagName=超低排放.7#门雾炮.雾炮电流,namaspaceIndex=2@@8个雾炮-7号门雾炮-1分钟采集一次
-tagName=超低排放.8#门北雾炮.雾炮电流,namaspaceIndex=2@@8个雾炮-8号门北雾炮-1分钟采集一次
-tagName=超低排放.8#门南雾炮.雾炮电流,namaspaceIndex=2@@8个雾炮-8号门南雾炮-1分钟采集一次
-tagName=超低排放.干雾抑尘4#绿色通道.电流,namaspaceIndex=2@@8个雾炮-干雾抑尘-1分钟采集一次
-tagName=超低排放.湿法除尘北.9#除尘电流,namaspaceIndex=2@@9#除尘器电极电流-5分钟采集一次
-tagName=超低排放.干雾抑尘2#冷修.冷修干雾抑尘,namaspaceIndex=2@@拆包干雾电流-30秒采集一次
 tagName=超低排放.连铸北.5流振动电流,namaspaceIndex=2@@干雾信号-5分钟采集一次
 tagName=超低排放.1/2#除尘.1#加压风机卸灰阀,namaspaceIndex=2@@急冷卸灰电机电流表-1号-5分钟采集一次
 tagName=超低排放.3#除尘.2#加压风机卸灰阀电流,namaspaceIndex=2@@急冷卸灰电机电流表-2号-5分钟采集一次
@@ -140,7 +115,6 @@ tagName=超低排放.1#碳氧枪.炉门枪料罐加料,namaspaceIndex=2@@12号�
 tagName=超低排放.2#碳氧枪.炉壁枪料罐加料,namaspaceIndex=2@@21号气力输送信号数据表-5分钟采集一次
 tagName=超低排放.2#碳氧枪.炉门枪料罐加料,namaspaceIndex=2@@22号气力输送信号数据表-5分钟采集一次
 tagName=超低排放.干雾抑尘2#冷修.切砖机电流,namaspaceIndex=2@@切转信号表-5分钟采集一次
-tagName=超低排放.干雾抑尘2#冷修.中包翻包机电流,namaspaceIndex=2@@倾翻信号表-30秒采集一次
 tagName=型钢.东大锯.东大锯电流,namaspaceIndex=2@@型钢扎线-fur1sawroom-5分钟采集一次
 tagName=型钢.西大锯.西大锯电流,namaspaceIndex=2@@型钢扎线-fur2sawroom-5分钟采集一次
 tagName=型钢.减径机.减径机k1电流,namaspaceIndex=2@@型钢扎线-reducingmill-5分钟采集一次
@@ -169,6 +143,7 @@ tagName=型钢.采集.入炉温度,namaspaceIndex=2@@在线压测监控DCS- cole
 tagName=型钢.采集.氧含量O2(湿),namaspaceIndex=2@@在线压测监控DCS- coloxycon-5分钟采集一次
 tagName=型钢.东大锯.东大锯电流,namaspaceIndex=2@@在线压测监控DCS- dongdasawcur-5分钟采集一次
 tagName=型钢.放灰信号.放灰信号,namaspaceIndex=2@@在线压测监控DCS- ashdissign-5分钟采集一次
+tagName=型钢.矫直机除尘.进出口压差,namaspaceIndex=2@@在线压测监控DCS- prediff-5分钟采集一次-t_onl_smoke_monitoring-f_dros_inoutprediff
 tagName=型钢.矫直机除尘.喷吹压力,namaspaceIndex=2@@在线压测监控DCS- drosinjpressure-5分钟采集一次
 tagName=型钢.矫直机除尘.设定频率,namaspaceIndex=2@@在线压测监控DCS- drossetfrequency-5分钟采集一次
 tagName=型钢.矫直机除尘.实际频率,namaspaceIndex=2@@在线压测监控DCS- drosactfrequency-5分钟采集一次
@@ -187,3 +162,4 @@ tagName=型钢.轧机除尘.喷吹压力,namaspaceIndex=2@@在线压测监控DCS
 tagName=型钢.轧机除尘.设定频率,namaspaceIndex=2@@在线压测监控DCS- mdrsetfrequency-5分钟采集一次
 tagName=型钢.轧机除尘.实际频率,namaspaceIndex=2@@在线压测监控DCS- mdractfrequency-5分钟采集一次
 tagName=超低排放.压球机.粘结剂电机,namaspaceIndex=2@@在线压测监控DCS- 造球上料-5分钟采集一次
+tagName=超低排放.湿法除尘北.9#除尘电流,namaspaceIndex=2@@9#除尘器电极电流-5分钟采集一次
