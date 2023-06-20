@@ -18,6 +18,8 @@ import org.springframework.stereotype.Component;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.concurrent.ExecutionException;
@@ -72,6 +74,7 @@ public class ReadOpcDataTask {
                 List<OpcDataDTO> reads = opcutil.reads(nodeIds);
                 Map<String, Object> data = new HashMap<>();
                 BulkRequest bulkRequest = new BulkRequest();
+                BigDecimal bigDecimal;
                 if (reads.size() > 0) {
                     for (OpcDataDTO read : reads) {
                         Date readTime = read.getReadTime();
@@ -91,8 +94,10 @@ public class ReadOpcDataTask {
                         }
                         String sourceTimeStr = format.format(sourceTime);
 
+                        bigDecimal = new BigDecimal(value.toString()).setScale(2, RoundingMode.HALF_UP);
+
                         data.put("tagName",tagName);
-                        data.put("value",value);
+                        data.put("value",bigDecimal.toString());
                         data.put("readTime",readTimeStr);
                         data.put("serverTime",serverTimeStr);
                         data.put("sourceTime",sourceTimeStr);
