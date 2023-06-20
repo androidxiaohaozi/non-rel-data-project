@@ -18,6 +18,7 @@ import org.springframework.stereotype.Component;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.concurrent.ExecutionException;
 
@@ -44,6 +45,8 @@ public class ReadOpcDataTask {
     public void fiveMinuteDataRead() {
 
         ClassPathResource classPathResource = new ClassPathResource("five-minute-data.txt");
+
+        SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         List<NodeId> nodeIds = new ArrayList<>();
         try (InputStream inputStream = classPathResource.getInputStream()){
 
@@ -72,16 +75,27 @@ public class ReadOpcDataTask {
                 if (reads.size() > 0) {
                     for (OpcDataDTO read : reads) {
                         Date readTime = read.getReadTime();
+                        String readTimeStr = format.format(readTime);
                         Date serverTime = read.getServerTime();
+                        //为空说明这个节点获取数据失败了。
+                        if(serverTime == null) {
+                            continue;
+                        }
+                        String serverTimeStr = format.format(serverTime);
                         String tagName = read.getTagName();
                         Object value = read.getValue();
                         Date sourceTime = read.getSourceTime();
+                        //为空说明这个节点获取数据失败了。
+                        if(sourceTime == null) {
+                            continue;
+                        }
+                        String sourceTimeStr = format.format(sourceTime);
 
                         data.put("tagName",tagName);
                         data.put("value",value);
-                        data.put("readTime",readTime);
-                        data.put("serverTime",serverTime);
-                        data.put("sourceTime",sourceTime);
+                        data.put("readTime",readTimeStr);
+                        data.put("serverTime",serverTimeStr);
+                        data.put("sourceTime",sourceTimeStr);
                         IndexRequest indexRequest = new IndexRequest("fiveminutedataindex").source(data);
                         bulkRequest.add(indexRequest);
                     }

@@ -78,7 +78,7 @@ tagName=超低排放.3#除尘.风机实际频率,namaspaceIndex=2@@3#除尘器�
 tagName=3#除尘在线.3#除尘在线.标态干烟气流量,namaspaceIndex=2@@3#除尘器电极风量-5分钟采集一次
 tagName=超低排放.3#除尘.压差,namaspaceIndex=2@@3#除尘器电极风压-5分钟采集一次
 tagName=超低排放.3#除尘.3#除尘卸灰阀电流,namaspaceIndex=2@@3#卸灰电机电流表-5分钟采集一次
-tagName=超低排放.4#除尘.4#除尘电机电流.A相,namaspaceIndex=2@@4#除尘电机电流-5分钟采集一次
+tagName=超低排放.4#除尘.4#除尘电机电流,namaspaceIndex=2@@4#除尘电机电流-5分钟采集一次
 tagName=超低排放.4#除尘.4#除尘频率,namaspaceIndex=2@@4#除尘电机频率-5分钟采集一次
 tagName=超低排放.4#除尘.4#除尘卸灰阀电流,namaspaceIndex=2@@4#卸灰电机电流表-5分钟采集一次
 tagName=Channel3.Device1.风机电流,namaspaceIndex=2@@6#除尘器电流-5分钟采集一次
@@ -117,7 +117,7 @@ tagName=超低排放.2#碳氧枪.炉门枪料罐加料,namaspaceIndex=2@@22号�
 tagName=超低排放.干雾抑尘2#冷修.切砖机电流,namaspaceIndex=2@@切转信号表-5分钟采集一次
 tagName=型钢.东大锯.东大锯电流,namaspaceIndex=2@@型钢扎线-fur1sawroom-5分钟采集一次
 tagName=型钢.西大锯.西大锯电流,namaspaceIndex=2@@型钢扎线-fur2sawroom-5分钟采集一次
-tagName=型钢.减径机.减径机k1电流,namaspaceIndex=2@@型钢扎线-reducingmill-5分钟采集一次
+tagName=轧机.减径机.减径机K1电流,namaspaceIndex=2@@型钢扎线-reducingmill-5分钟采集一次
 tagName=轧机.精轧机电流.精轧机电流,namaspaceIndex=2@@型钢扎线-finishingmill-5分钟采集一次
 tagName=轧机.轧机.K17电流,namaspaceIndex=2@@型钢扎线-froumilste-5分钟采集一次
 tagName=轧机.轧机.东矫直机电流,namaspaceIndex=2@@型钢扎线-fur2straightener-5分钟采集一次
@@ -132,9 +132,9 @@ tagName=型钢.采集.氮氧化物NOx(湿),namaspaceIndex=2@@在线压测监控D
 tagName=型钢.采集.二氧化硫SO2(干),namaspaceIndex=2@@在线压测监控DCS- colso2dry-5分钟采集一次
 tagName=型钢.采集.二氧化硫SO2(湿),namaspaceIndex=2@@在线压测监控DCS- colso2wet-5分钟采集一次
 tagName=型钢.采集.二氧化硫SO2(折算),namaspaceIndex=2@@在线压测监控DCS- colso2con-5分钟采集一次
-tagName=型钢.采集.颗粒物(干),namaspaceIndex=2@@在线压测监控DCS- colpmdry-5分钟采集一次
-tagName=型钢.采集.颗粒物(湿),namaspaceIndex=2@@在线压测监控DCS- colpmwet-5分钟采集一次
-tagName=型钢.采集.颗粒物(折算),namaspaceIndex=2@@在线压测监控DCS- colpmcon-5分钟采集一次
+tagName=型钢.采集.颗粒物（干）,namaspaceIndex=2@@在线压测监控DCS- colpmdry-5分钟采集一次
+tagName=型钢.采集.颗粒物（湿）,namaspaceIndex=2@@在线压测监控DCS- colpmwet-5分钟采集一次
+tagName=型钢.采集.颗粒物（折算）,namaspaceIndex=2@@在线压测监控DCS- colpmcon-5分钟采集一次
 tagName=型钢.采集.排气流速,namaspaceIndex=2@@在线压测监控DCS- colexhflorate-5分钟采集一次
 tagName=型钢.采集.排气湿度,namaspaceIndex=2@@在线压测监控DCS- colexhflohum-5分钟采集一次
 tagName=型钢.采集.排气温度,namaspaceIndex=2@@在线压测监控DCS- colexhflotem-5分钟采集一次
@@ -161,5 +161,5 @@ tagName=型钢.轧机除尘.进出口压差,namaspaceIndex=2@@在线压测监控
 tagName=型钢.轧机除尘.喷吹压力,namaspaceIndex=2@@在线压测监控DCS- mdrinjpressure-5分钟采集一次
 tagName=型钢.轧机除尘.设定频率,namaspaceIndex=2@@在线压测监控DCS- mdrsetfrequency-5分钟采集一次
 tagName=型钢.轧机除尘.实际频率,namaspaceIndex=2@@在线压测监控DCS- mdractfrequency-5分钟采集一次
-tagName=超低排放.压球机.粘结剂电机,namaspaceIndex=2@@在线压测监控DCS- 造球上料-5分钟采集一次
+tagName=超低排放.压球机.粘接剂电机,namaspaceIndex=2@@在线压测监控DCS- 造球上料-5分钟采集一次
 tagName=超低排放.湿法除尘北.9#除尘电流,namaspaceIndex=2@@9#除尘器电极电流-5分钟采集一次
