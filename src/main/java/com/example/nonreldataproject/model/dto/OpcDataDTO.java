@@ -1,4 +1,4 @@
-package com.example.nonreldataproject.dto;
+package com.example.nonreldataproject.model.dto;
 
 import lombok.*;
 

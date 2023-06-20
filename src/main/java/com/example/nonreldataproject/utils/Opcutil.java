@@ -1,6 +1,6 @@
 package com.example.nonreldataproject.utils;
 
-import com.example.nonreldataproject.dto.OpcDataDTO;
+import com.example.nonreldataproject.model.dto.OpcDataDTO;
 import com.example.nonreldataproject.properties.OpcProperties;
 import lombok.extern.slf4j.Slf4j;
 import org.eclipse.milo.opcua.sdk.client.OpcUaClient;
