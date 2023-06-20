@@ -1,5 +1,5 @@
-tagName=超低排放.1#精炼.计量仓振动电流,namaspaceIndex=2//1#LF称量斗振动给料机电流表-5分钟采集一次
-tagName=超低排放.1#精炼高压.A相二次电流,namaspaceIndex=2//1#LF炉冶炼电流-5分钟采集一次
+tagName=超低排放.1#精炼.计量仓振动电流,namaspaceIndex=2@@1#LF称量斗振动给料机电流表-5分钟采集一次
+tagName=超低排放.1#精炼高压.A相二次电流,namaspaceIndex=2@@1#LF炉冶炼电流-5分钟采集一次
 tagName=超低排放.1#精炼.皮带电流,namaspaceIndex=2@@1#LF皮带机电流-5分钟一次
 tagName=超低排放.1/2#除尘.1-1#风机电机电流,namaspaceIndex=2@@1#除尘器电机电流-5分钟采集一次
 tagName=超低排放.1/2#除尘.1-1#风机实际频率,namaspaceIndex=2@@1#除尘器电机频率-5分钟采集一次
