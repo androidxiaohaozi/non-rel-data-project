@@ -62,7 +62,7 @@ public class ReadOpcDataTask {
                 String[] tagNameArr = tagNameSplit.split("=");
                 String[] namaspaceIndexArr = namaspaceIndexSplit.split("=");
 
-                NodeId nodeId = new NodeId(Integer.parseInt(namaspaceIndexArr[0]),tagNameArr[0]);
+                NodeId nodeId = new NodeId(Integer.parseInt(namaspaceIndexArr[1]),tagNameArr[1]);
                 nodeIds.add(nodeId);
             }
             try {
