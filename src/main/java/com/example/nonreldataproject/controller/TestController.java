@@ -22,10 +22,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeUnit;
 
@@ -91,20 +88,22 @@ public class TestController {
     @RequestMapping("/testSearch")
     public void testSearch(String index,String type,String startTime,String endTime,String tagName) {
 
+
+        long start=System.currentTimeMillis();
         try {
             SearchRequest searchRequest = new SearchRequest(index);
             SearchSourceBuilder searchSourceBuilder;
 
             if ("1".equals(type)) {
-                searchSourceBuilder = new SearchSourceBuilder().sort("sourceTime", SortOrder.ASC);
+                searchSourceBuilder = new SearchSourceBuilder().sort("dataTime", SortOrder.ASC);
             } else {
-                searchSourceBuilder = new SearchSourceBuilder().sort("sourceTime", SortOrder.DESC);
+                searchSourceBuilder = new SearchSourceBuilder().sort("dataTime", SortOrder.DESC);
             }
 
             BoolQueryBuilder boolQueryBuilder = QueryBuilders.boolQuery();
 
-            boolQueryBuilder.must(QueryBuilders.matchQuery("tagName", tagName));
-            boolQueryBuilder.must(QueryBuilders.rangeQuery("sourceTime").gte(startTime).lte(endTime));
+            boolQueryBuilder.must(QueryBuilders.matchQuery("MN", tagName));
+            boolQueryBuilder.must(QueryBuilders.rangeQuery("dataTime").gte(startTime).lte(endTime));
 
             searchSourceBuilder.query(boolQueryBuilder);
 
@@ -113,8 +112,8 @@ public class TestController {
             searchRequest.source(searchSourceBuilder);
 
             //不分页查询
-            searchSourceBuilder.size(2);
-            Scroll scroll = new Scroll(TimeValue.timeValueMillis(1L));
+            searchSourceBuilder.size(1000);
+            Scroll scroll = new Scroll(TimeValue.timeValueMillis(5L));
             searchRequest.scroll(scroll);
 
             SearchResponse search = client.search(searchRequest, RequestOptions.DEFAULT);
@@ -138,6 +137,9 @@ public class TestController {
                 for (SearchHit hit : resultSearchHit) {
                     String id = hit.getId();
                     Map<String, Object> sourceAsMap = hit.getSourceAsMap();
+                    if (sourceAsMap == null) {
+                        sourceAsMap = new HashMap<>();
+                    }
                     sourceAsMap.put("id",id);
                     System.out.println(sourceAsMap);
                 }
@@ -145,5 +147,7 @@ public class TestController {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+        long endExport=System.currentTimeMillis();
+        System.out.println("******** 处理时间:" + "  " + (endExport-start));
     }
 }
