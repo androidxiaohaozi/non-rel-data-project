@@ -2,10 +2,13 @@ package com.example.nonreldataproject.controller;
 
 import com.example.nonreldataproject.model.dto.OpcDataDTO;
 import com.example.nonreldataproject.utils.Opcutil;
+import org.elasticsearch.action.bulk.BulkRequest;
+import org.elasticsearch.action.bulk.BulkResponse;
 import org.elasticsearch.action.search.ClearScrollRequest;
 import org.elasticsearch.action.search.SearchRequest;
 import org.elasticsearch.action.search.SearchResponse;
 import org.elasticsearch.action.search.SearchScrollRequest;
+import org.elasticsearch.action.update.UpdateRequest;
 import org.elasticsearch.client.RequestOptions;
 import org.elasticsearch.client.RestHighLevelClient;
 import org.elasticsearch.common.unit.TimeValue;
@@ -16,9 +19,7 @@ import org.elasticsearch.search.SearchHit;
 import org.elasticsearch.search.builder.SearchSourceBuilder;
 import org.elasticsearch.search.sort.SortOrder;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -52,23 +53,58 @@ public class TestController {
         return null;
     }
 
+
+    /**
+     * 测试批量修改
+     * @param entitys e
+     * @throws IOException i
+     */
+    @PostMapping("/bulkUpdate")
+    public void bulkUpdate(@RequestBody List<Map<String,Object>> entitys) throws IOException {
+        BulkRequest bulkRequest = new BulkRequest();
+
+        for (Map<String, Object> entity : entitys) {
+
+            Object id = entity.get("id");
+            Object index = entity.get("index");
+
+            UpdateRequest updateRequest = new UpdateRequest();
+            updateRequest.index(index.toString());
+            updateRequest.id(id.toString());
+            entity.remove("index");
+            updateRequest.doc(entity);
+            bulkRequest.add(updateRequest);
+        }
+
+        BulkResponse response = client.bulk(bulkRequest, RequestOptions.DEFAULT);
+        System.out.println("bulk write result is " + !response.hasFailures());
+    }
+
+    /**
+     * 测试查询
+     * @param index i
+     * @param type t
+     * @param startTime s
+     * @param endTime e
+     * @param tagName t
+     */
     @RequestMapping("/testSearch")
-    public void testSearch(String type) {
+    public void testSearch(String index,String type,String startTime,String endTime,String tagName) {
 
         try {
-            SearchRequest searchRequest = new SearchRequest("tspreceivedataindex");
+            SearchRequest searchRequest = new SearchRequest(index);
             SearchSourceBuilder searchSourceBuilder;
 
             if ("1".equals(type)) {
-                searchSourceBuilder = new SearchSourceBuilder().sort("dataTime", SortOrder.ASC);
+                searchSourceBuilder = new SearchSourceBuilder().sort("sourceTime", SortOrder.ASC);
             } else {
-                searchSourceBuilder = new SearchSourceBuilder().sort("dataTime", SortOrder.DESC);
+                searchSourceBuilder = new SearchSourceBuilder().sort("sourceTime", SortOrder.DESC);
             }
 
             BoolQueryBuilder boolQueryBuilder = QueryBuilders.boolQuery();
 
-            boolQueryBuilder.must(QueryBuilders.matchQuery("MN", "JZTSP000000033"));
-            boolQueryBuilder.must(QueryBuilders.rangeQuery("dataTime").gte("2023-06-05 11:56:28").lte("2023-06-05 16:01:28"));
+            boolQueryBuilder.must(QueryBuilders.matchQuery("tagName", tagName));
+            boolQueryBuilder.must(QueryBuilders.rangeQuery("sourceTime").gte(startTime).lte(endTime));
 
             searchSourceBuilder.query(boolQueryBuilder);
 
@@ -100,7 +136,9 @@ public class TestController {
 
             if (resultSearchHit.size() > 0) {
                 for (SearchHit hit : resultSearchHit) {
+                    String id = hit.getId();
                     Map<String, Object> sourceAsMap = hit.getSourceAsMap();
+                    sourceAsMap.put("id",id);
                     System.out.println(sourceAsMap);
                 }
             }

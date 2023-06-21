@@ -86,13 +86,20 @@ public class ReadOpcDataTask {
                         }
                         String serverTimeStr = format.format(serverTime);
                         String tagName = read.getTagName();
-                        Object value = read.getValue();
+                        Object value = read.getValue() != null ? read.getValue():"0";
                         Date sourceTime = read.getSourceTime();
                         //为空说明这个节点获取数据失败了。
                         if(sourceTime == null) {
                             continue;
                         }
                         String sourceTimeStr = format.format(sourceTime);
+
+                        if (value.toString().equals("false")) {
+                            value = "0";
+                        }
+                        if (value.toString().equals("true")) {
+                            value = "1";
+                        }
 
                         bigDecimal = new BigDecimal(value.toString()).setScale(2, RoundingMode.HALF_UP);
 
